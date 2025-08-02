@@ -5,7 +5,7 @@
       "src": "server.js",
       "use": "@vercel/node"
     }
-  ],  <-- YOU NEED A COMMA HERE!
+  ],
   "routes": [
     {
       "src": "/(.*)",
