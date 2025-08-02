@@ -1,0 +1,47 @@
+/* public/style.css */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #0b172a;
+  color: white;
+}
+select, textarea, button, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+button {
+  background-color: #1e40af;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Yellow border animation for Refresh Plans button */
+#refreshBtn {
+  border: 2px solid transparent;
+}
+#refreshBtn:hover {
+  border-color: yellow;
+  transition: border-color 0.3s ease;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
